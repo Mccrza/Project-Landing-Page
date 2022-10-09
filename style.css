@@ -1,0 +1,50 @@
+.first-quarter {
+    background-color: #1F2937;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.title-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.third-quarter {
+    color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
