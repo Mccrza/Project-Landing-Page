@@ -1,46 +1,220 @@
 .first-quarter {
     background-color: #1F2937;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.header {
-    font-size: 24px;
-    color: #F9FAF8;
+.first-left-container {
+
+}
+
+.company-name-container {
+
+}
+
+.slogan-container {
+
+}
+
+.description-container {
+
+}
+
+.signup-button-container {
+
+}
+
+.first-right-container {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+.upper-img-container {
+
+}
+
+.second-quarter {
+
+}
+
+.finds-title-container {
+
+}
+
+.finds-container {
+
+}
+
+.third-quarter {
+
+}
+
+.testimonial-container {
+
+}
+
+.fourth-quarter {
+
+}
+
+.blue-box-container {
+
+}
+
+.advertisement-container {
+
+}
+
+.instructions-container {
+
+}
+
+.signup-button-container {
+
+}
+
+.footer {
+
+}
+
+.header-container {
     display: flex;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
 }
 
-.business-name {
-    
+.company-name {
+    font-family: scryptonite;
+    font-size: 28px;
+    color: #F9FAF8;
+    margin-left: 0;
 }
 
-.links {
-    font-size: 18px;
-    color: #E5E7EB;
+.ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-right: 0;
+    padding: 0px 0px 0px 0px;
 }
 
-.title {
+li {
+    display: flex;
+    align-self: flex-end;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 800;
+    color:#E5E7EB;
+    margin-left: 0;
+    margin-right:0;
+    font-family: typewriter;
+    flex: 1;
+}
 
+a:link {
+    color: inherit!important;
+}
+
+.first-quarter-lower-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1000px;
+    max-height: 1000px;*/
+}
+
+.slogan-container {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .slogan {
-    font-size: 40px;
-    font-weight: 1000;
+    font-family: counterculture;
+    font-size: 22px;
     color: #F9FAF8;
+    max-width:400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.description {
-    font-size: 18px;
+.description-container {
+    font-size: 14px;
     color: #E5E7EB;
+    font-family: typewriter;
+    max-width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top:0;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.button {
-    background-color: #3882F6;
+.pushable {
+    background-color:#87a2c0;
+    cursor: pointer;
+    border-radius: 12px;
+    outline-offset: 4px;
+    padding: 0px;
+    margin-left: 0;
+}
+
+.front {
+    display: inline-block;
     color: #E5E7EB;
-    font-weight: 800;
+    font-size: 16px;
+    font-family: bold-allcaps-rev;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color:#3780f6;
+    transform: translateY(-6px);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: 85px;
+    margin-left: 0;
 }
 
-.title-img {
+.front:hover {
+    background-color:rgb(202, 219, 241);
+    color:#1c283a;
+}
 
+
+
+.pushable:active .front {
+    transform: translateY(2px);
+}
+
+.upper-img-container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .second-quarter {
@@ -61,8 +235,8 @@
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .third-quarter {
@@ -120,5 +294,88 @@ img {
     align-items: center;
 }
 
+@font-face {
+    font-family: typewriter;
+    src: url(/fonts/JMH\ Typewriter.ttf)
+}
 
+@font-face {
+    font-family: dead-revolution;
+    src: url(/fonts/dead-revolution.otf)
+}
+
+@font-face {
+    font-family: starets;
+    src: url(/fonts/Kremlin\ Starets.ttf);
+}
+
+@font-face {
+    font-family: kremlin-lite;
+    src: url(/fonts/Kremlin\ Samovar\ Lite.ttf);
+}
+
+@font-face {
+    font-family: kremlin-bold;
+    src: url(/fonts/Kremlin\ Samovar\ Extra\ Bold.ttf);
+}
+
+@font-face {
+    font-family: mockery;
+    src: url(/fonts/Mockery.ttf);
+}
+
+@font-face {
+    font-family: counterculture;
+    src: url(/fonts/countercult-rev-allcaps.ttf);
+}
+
+@font-face {
+    font-family: semi-strong;
+    src: url(/fonts/semi-strong-lowercase.ttf);
+}
+
+@font-face {
+    font-family: viking informal;
+    src: url(/fonts/viking-informal.ttf);
+}
+
+@font-face {
+    font-family: scryptonite;
+    src: url(/fonts/cursive-exciting-scriptonite.ttf);
+}
+
+@font-face {
+    font-family: thor;
+    src: url(/fonts/Godofthunder-0WO1P.ttf);
+}
+
+@font-face {
+    font-family: chernobyl;
+    src: url(/fonts/Chernobyl.Otf);
+}
+
+@font-face {
+    font-family: shadows-revolutionary;
+    src: url(/fonts/deep-shadows-rev.ttf);
+}
+
+@font-face {
+    font-family: shadows-filled;
+    src: url(/fonts/deep-shadows-rev-filled.ttf);
+}
+
+@font-face {
+    font-family: bold-allcaps-rev;
+    src: url(/fonts/bold-allcaps-rev.otf);
+}
+
+@font-face {
+    font-family: starred-i-rev;
+    src: url(/fonts/starred-i-rev.ttf);
+}
+
+@font-face {
+    font-family: bold-allcaps-leaning;
+    src: url(/fonts/bold-allcaps-leaning-in-rev.otf);
+}
 
