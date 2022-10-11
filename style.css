@@ -1,165 +1,48 @@
 .first-quarter {
+    display: flex;
+    flex-direction: row;
     background-color: #1F2937;
     margin-left: 0;
     margin-right: 0;
+    height: 600px;
 }
 
 .first-left-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .company-name-container {
-
-}
-
-.slogan-container {
-
-}
-
-.description-container {
-
-}
-
-.signup-button-container {
-
-}
-
-.first-right-container {
-
-}
-
-ul {
-
-}
-
-li {
-
-}
-
-.upper-img-container {
-
-}
-
-.second-quarter {
-
-}
-
-.finds-title-container {
-
-}
-
-.finds-container {
-
-}
-
-.third-quarter {
-
-}
-
-.testimonial-container {
-
-}
-
-.fourth-quarter {
-
-}
-
-.blue-box-container {
-
-}
-
-.advertisement-container {
-
-}
-
-.instructions-container {
-
-}
-
-.signup-button-container {
-
-}
-
-.footer {
-
-}
-
-.header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-left: 0;
-}
-
-.company-name {
-    font-family: scryptonite;
-    font-size: 28px;
-    color: #F9FAF8;
-    margin-left: 0;
-}
-
-.ul {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 35px;
-    margin-right: 0;
-    padding: 0px 0px 0px 0px;
-}
-
-li {
-    display: flex;
-    align-self: flex-end;
-    list-style: none;
-    font-size: 14px;
-    font-weight: 800;
-    color:#E5E7EB;
-    margin-left: 0;
-    margin-right:0;
-    font-family: typewriter;
-    flex: 1;
-}
-
-a:link {
-    color: inherit!important;
-}
-
-.first-quarter-lower-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 1000px;
-    max-height: 1000px;*/
+}   
+
+h3 {
+    font-family: counterculture;
+    font-size: 48px;
+    color:#F9FAF8;
+    max-width: 500px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
 }
 
 .slogan-container {
-    flex-direction: column;
-    align-items: flex-start;
     max-width: 500px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: none;
 }
 
-.slogan {
-    font-family: counterculture;
-    font-size: 22px;
-    color: #F9FAF8;
-    max-width:400px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+h1 {
+    font-family: typewriter;
+    font-size: 30px;
+    color:#F9FAF8;
+    width: 400px;
+    margin-bottom: none;
 }
 
 .description-container {
-    font-size: 14px;
-    color: #E5E7EB;
-    font-family: typewriter;
     max-width: 400px;
     display: flex;
     justify-content: flex-start;
@@ -167,9 +50,16 @@ a:link {
     padding-top: 0;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 6px;
 }
 
-.pushable {
+p {
+    color:#E5E7EB;
+    font-family: typewriter;
+    font-size: 16px;
+}
+
+.button-back {
     background-color:#87a2c0;
     cursor: pointer;
     border-radius: 12px;
@@ -178,7 +68,7 @@ a:link {
     margin-left: 0;
 }
 
-.front {
+.button-front {
     display: inline-block;
     color: #E5E7EB;
     font-size: 16px;
@@ -188,194 +78,284 @@ a:link {
     border-radius: 12px;
     background-color:#3780f6;
     transform: translateY(-6px);
-    border-radius: 10px;
     transition-duration: 0.4s;
     width: 85px;
     margin-left: 0;
 }
 
-.front:hover {
+.button-front:hover {
     background-color:rgb(202, 219, 241);
     color:#1c283a;
 }
 
-
-
-.pushable:active .front {
+.button-back:active .button-front {
     transform: translateY(2px);
+}
+
+.first-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul {
+    align-items: center;
+}
+
+li {
+    align-self: flex-start;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 800;
+    color:#E5E7EB;
+    max-width: 500px;
+    margin-left: 0;
+    margin-right:0;
+    padding-bottom: 0px;
+    font-family: typewriter;
+}
+
+a:link {
+    color: inherit!important;
+    align-self: flex-start;
 }
 
 .upper-img-container {
     margin-left: 0;
     margin-right: 0;
-    max-width: 1000px;
-    max-height: 1000px;
+    margin-bottom: auto;
+    max-width: 500px;
 }
 
 img {
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
+    flex: 1, 1, auto;
 }
 
 .second-quarter {
-
+    background-color: #E5E7EB;
+    height: 475px;
 }
 
-.finds-title {
-    font-size: 36px;
-    font-weight: 1000;
-    color: #1F2937;
-}
-
-.finds {
+.finds-title-container {
     display: flex;
-    justify-content: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
     align-items: center;
-    gap: 6px;
 }
 
-img {
+h2 {
+    font-family: neobulletin-bold;
+    color:#1F2937;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    flex: 0, 1, auto;
+}
+
+.img-figures-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-self: baseline;
+    align-content: baseline;
+}
+ 
+.img1, .img2, .img3, .img4 {
     width: 200px;
     height: 200px;
+    border: 4px solid #3780f6;
+    border-radius: 15px;
+    flex: 1;
+    align-self: baseline;
+    align-items: baseline;
+    align-content: baseline;
+}
+
+figcaption {
+    font-family: neobulletin-semi-bold;
+    color:#1F2937;
+    
+}
+
+.finds-container {
+    flex: 1;
+    align-self: baseline;
+    align-items: baseline;
+    align-content: baseline;
+
 }
 
 .third-quarter {
-    height: 200px;
     background-color: #E5E7EB;
+    font-size: 4px;
+    font-family: semi-strong;
+    color: #1F2937
+}
+
+.testimonial-container {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-.testimonial {
-    font-size: 18px;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #324054;
-}
-
 
 .fourth-quarter {
-    height: 200px;
+    background: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.blue-box {
-    height: 100px;
-    font-family:Arial, Helvetica, sans-serif;
+.blue-box-container {
     background-color: #3882F6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#F9FAF8;
     border-radius: .5em;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
-.advertisement {
-
+.advertisement-container {
+    font-family: dead-revolution;
+    color: #E5E7EB;
 }
 
-.instructions {
+.instructions-container {
+    font-family: dead-revolution;
+    color: #E5E7EB;
+    font-size: 13px;
+}
+
+.signup-button-container {
 
 }
 
 .signup-button {
-
+    background-color: #3780f6;
+    color: #E5E7EB;
+    font-family: bold-allcaps-rev;
+    font-size: 16px;
+    padding: 10px 30px;
+    width: 85px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
 }
 
 .footer {
-    height: 100px;
     background-color: #1F2937;
     color: #E5E7EB;
+    font-size: 12px;
+    font-family: bold-allcaps-leaning;
+    height: 200px;
+}
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 @font-face {
+    font-family: neobulletin-two;
+    src: url(fonts/neobulletin-bold.ttf);
+}
+
+@font-face {
+    font-family: neobulletin-semi-bold;
+    src: url(fonts/neobulletin-semi-bold.ttf);
+}
+
+@font-face {
+    font-family: neobulletin-bold;
+    src: url(fonts/neobulletin-two.ttf);
+}
+
+@font-face {
+    font-family: underground-lowercase;
+    src: url(fonts/underground-lowercase.ttf)
+}
+
+@font-face {
+    font-family: underground-allcaps;
+    src: url(fonts/underground-dark-bold-allcaps-shadowed.ttf);
+}
+
+@font-face {
+    font-family: underground-allcaps-italic;
+    src: url(fonts/underground-dark-bold-allcaps-shadowed-italic.ttf);
+}
+
+@font-face {
+    font-family: granny-t;
+    src: url(fonts/WBX_GT__.TTF);
+}
+
+@font-face {
+    font-family: granny-tb;
+    src: url(fonts/WBX_GTB_.TTF);
+}
+
+@font-face {
     font-family: typewriter;
-    src: url(/fonts/JMH\ Typewriter.ttf)
+    src: url(fonts/jmhtypwriter.ttf);
+}
+
+@font-face {
+    font-family: guerilla;
+    src: url(fonts/guerilla.ttf);
 }
 
 @font-face {
     font-family: dead-revolution;
-    src: url(/fonts/dead-revolution.otf)
-}
-
-@font-face {
-    font-family: starets;
-    src: url(/fonts/Kremlin\ Starets.ttf);
-}
-
-@font-face {
-    font-family: kremlin-lite;
-    src: url(/fonts/Kremlin\ Samovar\ Lite.ttf);
-}
-
-@font-face {
-    font-family: kremlin-bold;
-    src: url(/fonts/Kremlin\ Samovar\ Extra\ Bold.ttf);
-}
-
-@font-face {
-    font-family: mockery;
-    src: url(/fonts/Mockery.ttf);
+    src: url(fonts/dead-revolution.otf)
 }
 
 @font-face {
     font-family: counterculture;
-    src: url(/fonts/countercult-rev-allcaps.ttf);
+    src: url(fonts/countercult-rev-allcaps.ttf);
 }
 
 @font-face {
     font-family: semi-strong;
-    src: url(/fonts/semi-strong-lowercase.ttf);
+    src: url(fonts/semi-strong-lowercase.ttf);
 }
 
 @font-face {
     font-family: viking informal;
-    src: url(/fonts/viking-informal.ttf);
+    src: url(fonts/viking-informal.ttf);
 }
 
 @font-face {
     font-family: scryptonite;
-    src: url(/fonts/cursive-exciting-scriptonite.ttf);
+    src: url(fonts/cursive-exciting-scriptonite.ttf);
 }
 
 @font-face {
     font-family: thor;
-    src: url(/fonts/Godofthunder-0WO1P.ttf);
-}
-
-@font-face {
-    font-family: chernobyl;
-    src: url(/fonts/Chernobyl.Otf);
+    src: url(fonts/Godofthunder-0WO1P.ttf);
 }
 
 @font-face {
     font-family: shadows-revolutionary;
-    src: url(/fonts/deep-shadows-rev.ttf);
+    src: url(fonts/deep-shadows-rev.ttf);
 }
 
 @font-face {
     font-family: shadows-filled;
-    src: url(/fonts/deep-shadows-rev-filled.ttf);
+    src: url(fonts/deep-shadows-rev-filled.ttf);
 }
 
 @font-face {
     font-family: bold-allcaps-rev;
-    src: url(/fonts/bold-allcaps-rev.otf);
-}
-
-@font-face {
-    font-family: starred-i-rev;
-    src: url(/fonts/starred-i-rev.ttf);
+    src: url(fonts/bold-allcaps-rev.otf);
 }
 
 @font-face {
     font-family: bold-allcaps-leaning;
-    src: url(/fonts/bold-allcaps-leaning-in-rev.otf);
+    src: url(fonts/bold-allcaps-leaning-in-rev.otf);
 }
 
