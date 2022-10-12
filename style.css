@@ -1,6 +1,8 @@
 .first-quarter-wrapper {
-    margin: 15px;
+    margin: auto;
     background-color: #1F2937;
+    width: 100%;
+    height: 100%;
 }
 
 .left-side-top-row {
@@ -73,6 +75,7 @@ h1 {
     max-width: 635px;
     min-width: 100px;
     padding-bottom: 0;
+    text-shadow: 2px 2px 8px #87a2c0
 }
 
 .description {
@@ -146,12 +149,14 @@ h1 {
     box-shadow: 6px 6px 15px 4px rgb(244, 244, 244);
   }
 
-.second-quarter {
-    background-color: #E5E7EB;
-    height: 475px;
+.second-quarter-wrapper {
+    background-color:#F9FAF8;
+    margin: auto;
+    height: 100%;
+    width: 100%;
 }
 
-.finds-title-container {
+.finds-title-column {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -159,118 +164,311 @@ h1 {
     align-items: center;
 }
 
-h2 {
-    font-family: neobulletin-bold;
+.finds-title-element {
+    font-family: bold-allcaps-leaning;
     color:#1F2937;
+    font-size: 38px;
+    font-weight: 100;
     align-self: center;
     align-items: center;
     align-content: center;
-    flex: 0, 1, auto;
+    flex: 1, 1, auto;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    text-shadow: 2px 2px 8px #87a2c0
 }
 
-.img-figures-container {
+.finds-column {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.image-figures-column {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: baseline;
-    align-self: baseline;
-    align-content: baseline;
+    padding-bottom: 65px;
+    padding-top: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
- 
+
+.figcap1, .figcap2, .figcap3, .figcap4 {
+    font-family: guerilla;
+    color:#1F2937;
+    font-size: 20px;
+    font-weight: 800;
+    flex: 1 1 auto;
+}
+
 .img1, .img2, .img3, .img4 {
     width: 200px;
     height: 200px;
     border: 4px solid #3780f6;
     border-radius: 15px;
-    flex: 1;
+    flex: 1 1 auto;
     align-self: baseline;
     align-items: baseline;
     align-content: baseline;
 }
 
-figcaption {
-    font-family: neobulletin-semi-bold;
-    color:#1F2937;
-    
+.third-quarter-wrapper {
+    background-color:#E5E7EB;
+    margin: auto;
+    height: 100%;
+    width: 100%;
 }
 
-.finds-container {
-    flex: 1;
-    align-self: baseline;
-    align-items: baseline;
-    align-content: baseline;
-
-}
-
-.third-quarter {
-    background-color: #E5E7EB;
-    font-size: 4px;
-    font-family: semi-strong;
-    color: #1F2937
-}
-
-.testimonial-container {
+.testimonial-div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 100%;
+    flex: 1 1 auto;
 }
 
-.fourth-quarter {
-    background: #E5E7EB;
+.blockquote-div {
+    font-size: 26px;
+    font-weight: 500;
+    color: #1F2937;
+    background-color:#E5E7EB;
+    font-family: thor-outline;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex: 1 1 auto;
+}
+
+.figcaption {
+    font-size: 24px;
+    font-family: thor-outline;
+    font-weight: 500;
+    color: #1F2937;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex: 1 1 auto;
+}
+
+.fourth-quarter-wrapper {
+    background-color: #f9f9f9;
+    height: 500px;
+    max-width: 1170px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
+    align-items: center
+} 
 
-.blue-box-container {
-    background-color: #3882F6;
-    border-radius: .5em;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
-
-.advertisement-container {
-    font-family: dead-revolution;
-    color: #E5E7EB;
-}
-
-.instructions-container {
-    font-family: dead-revolution;
-    color: #E5E7EB;
-    font-size: 13px;
-}
-
-.signup-button-container {
-
-}
-
-.signup-button {
+.blue-box {
+    display:flex;
+    flex-direction: row;
     background-color: #3780f6;
+    width: 925px;
+    height: 200px;
+    min-width: 35%;
+    min-height: 25%;
+    border-radius: 1rem;
+    padding-left: 25px;
+    padding-top:35px;
+    padding-right: 25px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 45px;
+    justify-self: space-between;
+    align-self: flex-start;
+    justify-items: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex: 1 1 auto;
+}
+
+.h3 {
+    display: flex;
+    flex-direction: row;
+    align-self:start;
+    align-content:start;
+    align-self:start;
+    justify-self:flex-start;
+    justify-items:flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color:#E5E7EB;
+    font-size:50px;
+    font-family:bold-allcaps-leaning;
+    font-weight: 400;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left:7px;
+    margin-left: 7px;
+    padding-bottom: -1px;
+    margin-bottom: -1px;
+    flex: 1 1 auto;
+    margin-right:-1px;
+    padding-right:-1px;
+    text-shadow: 2px 2px 8px #1c283a
+}
+
+#h.h3 {
+    display: flex;
+    margin-top: -1px;
+    padding-top: -1px;
+    flex: 1 1 auto;
+    text-shadow: 2px 2px 8px #1c283a
+
+}
+
+.instructions-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    flex-wrap:wrap;
+    text-align:left;
+    font-family: bold-allcaps-leaning;
+    font-weight:10;
     color: #E5E7EB;
-    font-family: bold-allcaps-rev;
-    font-size: 16px;
-    padding: 10px 30px;
-    width: 85px;
-    border-radius: 12px;
-    border: 1px solid #E5E7EB;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 7px;
+    margin-left: 7px;
+    flex: 1 1 auto;
+    margin-right: -1px;
+    padding-right: -1px;
+    text-shadow: 2px 2px 8px #1c283a
+}
+
+.bottom-signup-button {
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    background-color: #3780f6;
+    font-family: bold-allcaps-leaning;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: .8em;
+    padding: 15px 15px 15px 15px;
+    text-align:right;
+    align-self:center;
+    justify-self: baseline;
+    margin-left: 20px;
+    margin-right: -1px;
+    margin-top: 0px;                                                       
+}
+
+.bottom-signup-button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: .8em;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+    align-items: right;
+    align-self: right;
+    align-content: right;
+    justify-items: end;
+    justify-self: end;
+    justify-content: end; 
+    margin-right: -1px;                                             
+}
+
+.bottom-signup-button:active {
+    color:#F9FAF8;
+    background-color:#1F2937;
+    padding: 15px;
+}
+
+.bottom-signup-button:after {
+    background: transparent;
+    padding: 15px;
+
+}
+
+.bottom-signup-button:hover:before {
+    opacity: 1;
+    padding: 15px;
+
+}
+
+.bottom-signup-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1F2937;
+    left: 0;
+    top: 0;
+    border-radius: .8em;
+    padding: 15px;
+}
+
+.footer-wrapper {
+    background-color:#1F2937;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1170px;
+    height: 200px
 }
 
 .footer {
-    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
     color: #E5E7EB;
-    font-size: 12px;
-    font-family: bold-allcaps-leaning;
-    height: 200px;
+    font-size: 40px;
+    font-family:scryptonite;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+@font-face {
+    font-family: dead revolution;
+    src: url(fonts/dead-revolution.otf);
 }
 
 @font-face {
@@ -334,8 +532,8 @@ footer {
 }
 
 @font-face {
-    font-family: semi-strong;
-    src: url(fonts/semi-strong-lowercase.ttf);
+    font-family: thor-outline;
+    src: url(fonts/dameron/damerongradital.ttf);
 }
 
 @font-face {
