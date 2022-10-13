@@ -580,3 +580,13 @@ h1 {
     src: url(fonts/bold-allcaps-leaning-in-rev.otf);
 }
 
+@font-face {
+    font-family: thor-outline;
+    src: url(fonts/dameron/dameronlaserital.ttf);
+}
+
+@font-face {
+    font-family: scryptonite;
+    src: url(fonts/scriptonite.ttf);
+}
+
