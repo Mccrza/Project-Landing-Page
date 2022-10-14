@@ -12,3 +12,4 @@ Image Credits:
 2. "miles-davis-blue.jpg" Copyright © lovemoney.com, n.d., All rights reserved.
 3. "the-pagans.jpg" Copyright © lovemoney.com, n.d., All rights reserved.
 4. "the-queers.jpg" Copyright © lovemoney.com, n.d., All rights reserved.
+5. "thor.jpg" Uncredited, www.quora.com n.d.

@@ -498,6 +498,40 @@ h1 {
     padding-top: 80px;
 }
 
+.alliteration-body {
+    background-color:cornsilk;
+}
+
+.more-alliteration {
+    font-family: thor;
+    font-size: 26px;
+    color:darkorange
+}
+
+.poem {
+    font-family: underground-lowercase;
+    font-size: 20px;
+    color:#002bff
+}
+
+.poemtitle {
+    font-family:underground-allcaps-italic;
+    font-size: 26px;
+    color:#1F2937
+}
+
+.poem-author {
+    font-family: underground-allcaps;
+    font-size: 16px;
+    color:#87a2c0
+}
+
+.thor-author {
+    font-family: thor;
+    font-size: 18px;
+    color:coral
+}
+
 @keyframes animate
 {
   0%
