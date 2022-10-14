@@ -499,36 +499,44 @@ h1 {
 }
 
 .alliteration-body {
-    background-color:cornsilk;
+    background-color:#fff;
 }
 
 .more-alliteration {
-    font-family: thor;
+    font-family: thor-outline;
     font-size: 26px;
-    color:darkorange
+    color:crimson;
 }
 
 .poem {
-    font-family: underground-lowercase;
+    font-family: thor-outline;
     font-size: 20px;
-    color:#002bff
+    color:coral;
 }
 
 .poemtitle {
-    font-family:underground-allcaps-italic;
+    font-family: thor-outline2;
     font-size: 26px;
-    color:#1F2937
+    color:coral;
+    font-weight: 1000;
+
 }
 
 .poem-author {
-    font-family: underground-allcaps;
+    font-family: thor-outline2;
     font-size: 16px;
-    color:#87a2c0
+    color:crimson;
 }
 
 .thor-author {
-    font-family: thor;
-    font-size: 18px;
+    font-family: thor-outline2;
+    font-size: 28px;
+    color:coral
+}
+
+.thor-photo {
+    font-family: thor-outline;
+    font-size: 28px;
     color:coral
 }
 
@@ -595,7 +603,7 @@ h1 {
 }
 
 @font-face {
-    font-family: thor-outline;
+    font-family: thor-outline2;
     src: url(fonts/dameron/damerongradital.ttf);
 }
 
